@@ -1,0 +1,2 @@
+ecm_optional_add_subdirectory(kcontrol5)
+ecm_optional_add_subdirectory(kdesu)

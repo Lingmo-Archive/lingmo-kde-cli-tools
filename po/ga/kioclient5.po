@@ -1,0 +1,401 @@
+# Irish translation of kioclient
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kioclient package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase/kioclient.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2020-03-31 03:53+0200\n"
+"PO-Revision-Date: 2007-07-08 10:16-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: kioclient.cpp:65
+#, kde-format
+msgid ""
+"\n"
+"Syntax:\n"
+msgstr ""
+"\n"
+"Comhréir:\n"
+
+#: kioclient.cpp:66
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient openProperties 'url'\n"
+#| "            # Opens a properties menu\n"
+#| "\n"
+msgid ""
+"  kioclient5 openProperties 'url'\n"
+"            # Opens a properties menu\n"
+"\n"
+msgstr ""
+"  kioclient openProperties 'url'\n"
+"            # Oscail roghchlár airíonna\n"
+"\n"
+
+#: kioclient.cpp:68
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient exec 'url' ['mimetype']\n"
+#| "            # Tries to open the document pointed to by 'url', in the "
+#| "application\n"
+#| "            #   associated with it in KDE. You may omit 'mimetype'.\n"
+#| "            #   In this case the mimetype is determined\n"
+#| "            #   automatically. Of course URL may be the URL of a\n"
+#| "            #   document, or it may be a *.desktop file.\n"
+#| "            #   'url' can be an executable, too.\n"
+msgid ""
+"  kioclient5 exec 'url' ['mimetype']\n"
+"            # Tries to open the document pointed to by 'url', in the "
+"application\n"
+"            #   associated with it in KDE. You may omit 'mimetype'.\n"
+"            #   In this case the mimetype is determined\n"
+"            #   automatically. Of course URL may be the URL of a\n"
+"            #   document, or it may be a *.desktop file.\n"
+"            #   'url' can be an executable, too.\n"
+msgstr ""
+"  kioclient exec 'url' ['cineál MIME']\n"
+"            # Bain triail as an gcáipéis ag 'url' a oscailt san "
+"fheidhmchlár\n"
+"            #   a bhaineann leis i KDE. Is féidir an cineál MIME a fhágáil "
+"ar lár,\n"
+"            #   agus déanfar an cineál MIME amach go huathoibríoch.\n"
+"            #   Ar ndóigh, is féidir URL de cháipéis a thabhairt, nó de "
+"chomhad *.desktop,\n"
+"            #   nó de chlár inrite freisin.\n"
+
+#: kioclient.cpp:75
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient move 'src' 'dest'\n"
+#| "            # Moves the URL 'src' to 'dest'.\n"
+#| "            #   'src' may be a list of URLs.\n"
+msgid ""
+"  kioclient5 move 'src' 'dest'\n"
+"            # Moves the URL 'src' to 'dest'.\n"
+"            #   'src' may be a list of URLs.\n"
+msgstr ""
+"  kioclient move 'foinse' 'sprioc'\n"
+"            # Bog an URL 'foinse' go 'sprioc'.\n"
+"            #   Is féidir 'foinse' a bheith ina liosta de URLanna.\n"
+
+#: kioclient.cpp:78
+#, kde-format
+msgid ""
+"            #   'dest' may be \"trash:/\" to move the files\n"
+"            #   to the trash.\n"
+msgstr ""
+"            #   Tabhair \"trash:/\" ar 'sprioc' chun na comhaid\n"
+"            #   a chur sa bhruscar.\n"
+
+#: kioclient.cpp:80
+#, fuzzy, kde-format
+#| msgid ""
+#| "            #   the short version kioclient mv\n"
+#| "            #   is also available.\n"
+#| "\n"
+msgid ""
+"            #   the short version kioclient5 mv\n"
+"            #   is also available.\n"
+"\n"
+msgstr ""
+"            #   tá an leagan gearr kioclient mv\n"
+"            #   ar fáil freisin.\n"
+"\n"
+
+#: kioclient.cpp:82
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient download ['src']\n"
+#| "            # Copies the URL 'src' to a user-specified location'.\n"
+#| "            #   'src' may be a list of URLs, if not present then\n"
+#| "            #   a URL will be requested.\n"
+#| "\n"
+msgid ""
+"  kioclient5 download ['src']\n"
+"            # Copies the URL 'src' to a user-specified location'.\n"
+"            #   'src' may be a list of URLs, if not present then\n"
+"            #   a URL will be requested.\n"
+"\n"
+msgstr ""
+"  kioclient download ['foinse']\n"
+"            # Cóipeáil an URL 'foinse' go suíomh a shonraíonn an t-"
+"úsáideoir.\n"
+"            #   Is féidir 'foinse' a bheith ina liosta de URLanna; gan "
+"'foinse',\n"
+"            #   iarrfar URL ort.\n"
+"\n"
+
+#: kioclient.cpp:86
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient copy 'src' 'dest'\n"
+#| "            # Copies the URL 'src' to 'dest'.\n"
+#| "            #   'src' may be a list of URLs.\n"
+msgid ""
+"  kioclient5 copy 'src' 'dest'\n"
+"            # Copies the URL 'src' to 'dest'.\n"
+"            #   'src' may be a list of URLs.\n"
+msgstr ""
+"  kioclient copy 'foinse' 'sprioc'\n"
+"            # Cóipeáil an URL 'foinse' go 'sprioc'.\n"
+"            #    Is féidir 'foinse' a bheith ina liosta de URLanna.\n"
+
+#: kioclient.cpp:89
+#, fuzzy, kde-format
+#| msgid ""
+#| "            #   the short version kioclient cp\n"
+#| "            #   is also available.\n"
+#| "\n"
+msgid ""
+"            #   the short version kioclient5 cp\n"
+"            #   is also available.\n"
+"\n"
+msgstr ""
+"            #   tá an leagan gearr kioclient cp\n"
+"            #   ar fáil freisin.\n"
+"\n"
+
+#: kioclient.cpp:91
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient cat 'url'\n"
+#| "            # Writes out the contents of 'url' to stdout\n"
+#| "\n"
+msgid ""
+"  kioclient5 cat 'url'\n"
+"            # Writes out the contents of 'url' to stdout\n"
+"\n"
+msgstr ""
+"  kioclient cat 'url'\n"
+"            # Scríobh inneachar de 'url' go dtí an gnáth-aschur\n"
+"\n"
+
+#: kioclient.cpp:93
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient ls 'url'\n"
+#| "            # Lists the contents of the directory 'url' to stdout\n"
+#| "\n"
+msgid ""
+"  kioclient5 ls 'url'\n"
+"            # Lists the contents of the directory 'url' to stdout\n"
+"\n"
+msgstr ""
+"  kioclient ls 'url'\n"
+"            # Scríobh inneachar de 'url' go dtí an gnáth-aschur\n"
+"\n"
+
+#: kioclient.cpp:95
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient remove 'url'\n"
+#| "            # Removes the URL\n"
+#| "            #   'url' may be a list of URLs.\n"
+msgid ""
+"  kioclient5 remove 'url'\n"
+"            # Removes the URL\n"
+"            #   'url' may be a list of URLs.\n"
+msgstr ""
+"  kioclient remove 'url'\n"
+"            # Baineann sé seo an URL\n"
+"            #   Is féidir liosta URLanna a thabhairt mar 'url' freisin.\n"
+
+#: kioclient.cpp:98
+#, fuzzy, kde-format
+#| msgid ""
+#| "            #   the short version kioclient rm\n"
+#| "            #   is also available.\n"
+#| "\n"
+msgid ""
+"            #   the short version kioclient5 rm\n"
+"            #   is also available.\n"
+"\n"
+msgstr ""
+"            #   tá an leagan gearr kioclient rm\n"
+"            #   ar fáil freisin.\n"
+"\n"
+
+#: kioclient.cpp:101
+#, kde-format
+msgid "*** Examples:\n"
+msgstr ""
+
+#: kioclient.cpp:102
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient exec file:/home/weis/data/test.html\n"
+#| "             // Opens the file with default binding\n"
+#| "\n"
+msgid ""
+"  kioclient5 exec file:/home/weis/data/test.html\n"
+"             // Opens the file with default binding\n"
+"\n"
+msgstr ""
+"  kioclient exec file:/home/kps/gaeilge/sauce.html\n"
+"             // Oscail an comhad le ceangal réamhshocraithe\n"
+"\n"
+
+#: kioclient.cpp:104
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient exec ftp://localhost/\n"
+#| "             // Opens new window with URL\n"
+#| "\n"
+msgid ""
+"  kioclient5 exec ftp://localhost/\n"
+"             // Opens new window with URL\n"
+"\n"
+msgstr ""
+"  kioclient exec ftp://localhost/\n"
+"             // Oscail fuinneog nua le URL\n"
+"\n"
+
+#: kioclient.cpp:106
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient exec file:/root/Desktop/emacs.desktop\n"
+#| "             // Starts emacs\n"
+#| "\n"
+msgid ""
+"  kioclient5 exec file:/root/Desktop/emacs.desktop\n"
+"             // Starts emacs\n"
+"\n"
+msgstr ""
+"  kioclient exec file:/root/Desktop/emacs.desktop\n"
+"             // Tosaigh emacs\n"
+"\n"
+
+#: kioclient.cpp:108
+#, fuzzy, kde-format
+#| msgid ""
+#| "  kioclient exec .\n"
+#| "             // Opens the current directory. Very convenient.\n"
+#| "\n"
+msgid ""
+"  kioclient5 exec .\n"
+"             // Opens the current directory. Very convenient.\n"
+"\n"
+msgstr ""
+"  kioclient exec .\n"
+"             // Oscail an chomhadlann reatha. An-áisiúil.\n"
+"\n"
+
+#: kioclient.cpp:124
+#, kde-format
+msgid "KIO Client"
+msgstr "Cliant KIO"
+
+#: kioclient.cpp:125
+#, kde-format
+msgid "Command-line tool for network-transparent operations"
+msgstr ""
+"Uirlis lenar féidir oibríochtaí líonra thrédhearcaigh a dhéanamh ó líne na n-"
+"orduithe"
+
+#: kioclient.cpp:132
+#, kde-format
+msgid "Use message boxes and other native notifications"
+msgstr ""
+
+#: kioclient.cpp:134
+#, kde-format
+msgid ""
+"Non-interactive use: no message boxes. If you don't want a graphical "
+"connection, use --platform offscreen"
+msgstr ""
+
+#: kioclient.cpp:138
+#, kde-format
+msgid "Overwrite destination if it exists (for copy and move)"
+msgstr "Scríobh ar an sprioc-chomhad má tá sé ann (cóipeáil agus aistriú)"
+
+#: kioclient.cpp:142
+#, fuzzy, kde-format
+#| msgid "URL or URLs"
+msgid "file or URL"
+msgstr "URL nó URLanna"
+
+#: kioclient.cpp:142 kioclient.cpp:144 kioclient.cpp:147 kioclient.cpp:152
+#, kde-format
+msgid "urls..."
+msgstr ""
+
+#: kioclient.cpp:144 kioclient.cpp:147
+#, kde-format
+msgid "Source URL or URLs"
+msgstr "URL nó URLanna Foinse"
+
+#: kioclient.cpp:145 kioclient.cpp:148
+#, kde-format
+msgid "Destination URL"
+msgstr "URL sprice"
+
+#: kioclient.cpp:145 kioclient.cpp:148
+#, kde-format
+msgid "url"
+msgstr ""
+
+#: kioclient.cpp:150
+#, kde-format
+msgid "Show available commands"
+msgstr "Taispeáin na horduithe atá ar fáil"
+
+#: kioclient.cpp:151
+#, kde-format
+msgid "Command (see --commands)"
+msgstr "Ordú (féach ar --commands)"
+
+#: kioclient.cpp:151
+#, kde-format
+msgid "command"
+msgstr ""
+
+#: kioclient.cpp:152
+#, kde-format
+msgid "Arguments for command"
+msgstr "Argóintí don ordú"
+
+#: kioclient.cpp:189
+#, fuzzy, kde-format
+#| msgid "Syntax Error: Not enough arguments\n"
+msgctxt "@info:shell"
+msgid "%1: Syntax error, not enough arguments\n"
+msgstr "Earráid Chomhréire: Níl go leor argóintí ann\n"
+
+#: kioclient.cpp:194
+#, fuzzy, kde-format
+#| msgid "Syntax Error: Too many arguments\n"
+msgctxt "@info:shell"
+msgid "%1: Syntax error, too many arguments\n"
+msgstr "Earráid Chomhréire: An iomarca argóintí\n"
+
+#: kioclient.cpp:369
+#, kde-format
+msgid "Destination where to download the files"
+msgstr ""
+
+#: kioclient.cpp:412
+#, fuzzy, kde-format
+#| msgid "Syntax Error: Unknown command '%1'\n"
+msgctxt "@info:shell"
+msgid "%1: Syntax error, unknown command '%2'\n"
+msgstr "Earráid Chomhréire: Ordú anaithnid '%1'\n"

@@ -1,0 +1,15 @@
+kde-cli-tools: package-name-doesnt-match-sonames libkdeinit5-kcmshell5
+kde-cli-tools: no-manual-page usr/bin/kbroadcastnotification
+kde-cli-tools: no-manual-page usr/bin/kcmshell5
+kde-cli-tools: no-manual-page usr/bin/kde-open5
+kde-cli-tools: no-manual-page usr/bin/kdecp5
+kde-cli-tools: no-manual-page usr/bin/kdemv5
+kde-cli-tools: no-manual-page usr/bin/kde-inhibit
+kde-cli-tools: no-manual-page usr/bin/keditfiletype5
+kde-cli-tools: no-manual-page usr/bin/kioclient5
+kde-cli-tools: no-manual-page usr/bin/kmimetypefinder5
+kde-cli-tools: no-manual-page usr/bin/kstart5
+kde-cli-tools: no-manual-page usr/bin/ksvgtopng5
+kde-cli-tools: no-manual-page usr/bin/ktraderclient5
+kde-cli-tools: shared-library-lacks-version usr/lib/*/libkdeinit5_kcmshell5.so libkdeinit5_kcmshell5.so
+kde-cli-tools: no-symbols-control-file usr/lib/*/libkdeinit5_kcmshell5.so
